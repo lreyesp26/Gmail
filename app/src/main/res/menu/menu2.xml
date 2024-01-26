@@ -1,0 +1,117 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_seccion_5"
+        android:icon="@drawable/ic_activo"
+        android:title="Activo"/>
+
+    <item
+        android:id="@+id/menu_seccion_6"
+        android:icon="@drawable/ic_estado"
+        android:title="Agregar un estado"/>
+
+
+    <item
+        android:id="@+id/menu_seccion_4"
+        android:icon="@drawable/ic_todos"
+        android:title="Todos los Recibidos"/>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/ic_princ"
+            android:title="Principal"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/ic_promo"
+            android:title="Promociones"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/ic_social"
+            android:title="Social"/>
+        <item
+            android:id="@+id/menu_seccion_7"
+            android:icon="@drawable/ic_noti"
+            android:title="Notificaciones"/>
+        <item
+            android:id="@+id/menu_seccion_8"
+            android:icon="@drawable/ic_foros"
+            android:title="Foros"/>
+    </group>
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="Todas las etiquetas">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/ic_destacados"
+                android:title="Destacados"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/ic_pospuesto"
+                android:title="Pospuestos"/>
+            <item
+                android:id="@+id/menu_opcion_3"
+                android:icon="@drawable/ic_importante"
+                android:title="Importantes"/>
+            <item
+                android:id="@+id/menu_opcion_4"
+                android:icon="@drawable/ic_enviados"
+                android:title="Enviados"/>
+            <item
+                android:id="@+id/menu_opcion_5"
+                android:icon="@drawable/ic_programados"
+                android:title="Programados"/>
+            <item
+                android:id="@+id/menu_opcion_6"
+                android:icon="@drawable/ic_bandejasalida"
+                android:title="Bandeja de salida"/>
+            <item
+                android:id="@+id/menu_opcion_7"
+                android:icon="@drawable/ic_borradores"
+                android:title="Borradores"/>
+            <item
+                android:id="@+id/menu_opcion_8"
+                android:icon="@drawable/ic_todosemail"
+                android:title="Todos"/>
+            <item
+                android:id="@+id/menu_opcion_9"
+                android:icon="@drawable/ic_spam"
+                android:title="Spam"/>
+            <item
+                android:id="@+id/menu_opcion_10"
+                android:icon="@drawable/ic_papelera"
+                android:title="Papelera"/>
+            <item
+                android:id="@+id/menu_opcion_11"
+                android:icon="@drawable/ic_borrador"
+                android:title="[map]/Borrador"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_subheader2"
+        android:title="Apps de Google">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_12"
+                android:icon="@drawable/ic_calendario"
+                android:title="Calendario"/>
+            <item
+                android:id="@+id/menu_opcion_13"
+                android:icon="@drawable/ic_contacto"
+                android:title="Contactos"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_opcion_14"
+        android:icon="@drawable/ic_confi"
+        android:title="Configuración"/>
+
+    <item
+        android:id="@+id/menu_opcion_15"
+        android:icon="@drawable/ic_ayuda"
+        android:title="Ayuda y comentarios"/>
+</menu>
