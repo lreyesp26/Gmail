@@ -11,7 +11,6 @@
         android:icon="@drawable/ic_estado"
         android:title="Agregar un estado"/>
 
-
     <item
         android:id="@+id/menu_seccion_4"
         android:icon="@drawable/ic_todos"
